@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minecraft</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/images/favicon_io/favicon.ico"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://yui.yahooapis.com/3.11.0/build/cssnormalize/cssnormalize-min.css"
+    />
+
+    <link rel="stylesheet" href="/assets/styles/main_containers.css" />
+    <link rel="stylesheet" href="/assets/styles/board_items.css" />
+    <link rel="stylesheet" href="/assets/styles/tools_box.css" />
+    <link rel="stylesheet" href="/assets/fonts/fonts.css" />
+    <link rel="stylesheet" href="/assets/styles/demo_page.css" />
+    <link rel="stylesheet" href="/assets/styles/mobile.css" />
+    <link rel="stylesheet" href="/assets/styles/themBtn.css" />
+  </head>
+  <body>
+    <div class="gameContainer">
+      <!------------ start page ------------------->
+      <div class="startPage left_side">
+        <div class="logo"></div>
+        <button class="startButton">start</button>
+      </div>
+      <div class="gameBoardBox left_side">
+        <div class="gameBoard"></div>
+      </div>
+      <!------------ demo page ------------------->
+      <div class="demo left_side">
+        <h1>How to play :</h1>
+        <h2>
+          Each tool will destract spesfic part of the world and the last one
+          will be saved in the inventroy
+        </h2>
+        <div class="demoTool">
+          <div class="demoText">
+            <img
+              src="https://img.icons8.com/offices/50/000000/minecraft-axe.png"
+            />
+            <span class="demo_list">axe</span> : will cut the trees
+          </div>
+          <div class="demoText">
+            <img
+              src="https://img.icons8.com/fluency/50/000000/minecraft-pickaxe.png"
+            />
+            <span class="demo_list">Pickaxe</span> : will cut the trees
+          </div>
+          <div class="demoText">
+            <img
+              src="https://img.icons8.com/officel/50/000000/minecraft-shovel.png"
+            />
+            <span class="demo_list">Shovel</span> : will cut the trees
+          </div>
+          <div class="demoText">
+            <img
+              src="https://img.icons8.com/plasticine/50/000000/minecraft-grass-cube.png"
+            />
+            <span class="demo_list">inventory</span> : add last element
+          </div>
+          <div class="demobtn">
+            <button class="toTheGame">I'm read, let's play</button>
+          </div>
+        </div>
+      </div>
+      <!--toolbox-->
+      <div class="toolsbox">
+        <div class="switchBox">
+          <label class="switch">
+            <input class="thememode" type="checkbox" checked />
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <button class="resetBtn">reset</button>
+      </div>
+    </div>
+    <script src="/assets/scripts/start.js"></script>
+  </body>
+</html>
