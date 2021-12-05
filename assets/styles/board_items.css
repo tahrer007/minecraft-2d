@@ -1,0 +1,24 @@
+
+.boardBackground {
+    background-color: #96D6EF;
+}
+.cloud {
+    background-image: url("/assets/images/clouds.jpeg");
+}
+.leaf {
+    background-image: url("/assets/images/leaf.png");
+}
+.wood {
+    background-image: url("/assets/images/wood.png");
+}
+.rock {
+    background-image: url("/assets/images/rock.png");
+}
+.grace {
+    background-image: url("/assets/images/grace.png");
+   
+}
+.dirt{
+    background-image: url("/assets/images/dirt.png");
+
+}

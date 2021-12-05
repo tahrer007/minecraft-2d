@@ -1,0 +1,73 @@
+.toolsbox {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width : 10%;
+  height: 100%;
+  position: relative;
+  box-sizing: content-box
+}
+.resetBtn {
+  font-size: 1.5vw;
+  font-family: mineCraft-bold;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  border: 3px solid white;
+  padding: 0.25em 0.5em;
+  background-color: unset;
+  visibility: hidden;
+}
+
+.toolContainer {
+  width: 7vw;
+  height: 7vw;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  border: 1px white solid;
+}
+
+.currentTool {
+  background-color: blue;
+  border: none;
+}
+
+.toolImgDiv {
+  width: 100%;
+  height: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.toolTxtDiv {
+  font-size: 1vw;
+
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: mineCraft;
+  color: white;
+}
+.Axe {
+  background-image: url("/assets/images/axe.png");
+}
+.Pickaxe {
+  background-image: url("/assets/images/Pickaxe.png");
+}
+.Shovel {
+  background-image: url("/assets/images/shovel.png");
+}
+.inventory {
+  width: 6vmin;
+  height: 6vmin;
+  border: 5px white solid;
+}
+.wrongTool {
+  background-color: orange;
+}
